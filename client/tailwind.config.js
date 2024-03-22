@@ -4,5 +4,11 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: ["@tailwindcss/forms"],
+
+  variants: {
+    extend: {
+      display: ["group-hover"],
+    },
+  },
 };
